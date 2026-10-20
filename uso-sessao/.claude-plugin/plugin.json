@@ -1,0 +1,7 @@
+{
+  "name": "uso-sessao",
+  "version": "0.1.0",
+  "description": "Barra azul acima do prompt com o uso dos limites (sessão de 5 h e semana) e o horário do próximo reset",
+  "author": { "name": "Bruno Marino" },
+  "types": "./types/index.d.ts"
+}

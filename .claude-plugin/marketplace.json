@@ -1,0 +1,14 @@
+{
+  "name": "plugins-bruno",
+  "description": "Plugins do Claude Code mantidos nesta máquina",
+  "owner": {
+    "name": "Bruno Marino"
+  },
+  "plugins": [
+    {
+      "name": "uso-sessao",
+      "source": "./uso-sessao",
+      "description": "Barra azul acima do prompt com o uso dos limites (sessão de 5 h e semana) e o horário do próximo reset"
+    }
+  ]
+}
