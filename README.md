@@ -5,7 +5,7 @@ Plugins do Claude Code mantidos por Bruno Marino (marketplace `plugins-bruno`).
 | Plugin | O que faz |
 | --- | --- |
 | [uso-sessao](./uso-sessao) | Barra azul acima do prompt com o uso dos limites (sessão de 5 h e semana) e o horário do próximo reset |
-| [resources-monitor](./resources-monitor) | Painel na lateral direita com uso de CPU, memória e disco em tempo real, em âmbar |
+| [resources-monitor](./resources-monitor) | Painel na lateral direita com uso de CPU, memória e disco em tempo real, em preto e branco |
 
 ## Instalação
 

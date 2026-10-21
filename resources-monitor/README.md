@@ -1,38 +1,36 @@
 # resources-monitor
 
-Painel na lateral direita do Claude Code com o uso de CPU, memória e disco da máquina, atualizado a cada segundo, em âmbar:
+A Claude Code panel on the right side with the machine's CPU, memory and disk usage, refreshed every second, in black and white:
 
 ```
-CPU (1 núcleo)
-██████░░░░░░░░░░░░░░  27.4%
-▁▂▂▃▅▃▂▁▁▂▃▄▃▂▁▁▂▂▃▂
+CPU (1 core)
+█░░░░░░░░░░░░░   2.1%
 
-Memória
-███████████░░░░░░░░░  60.9%
-0.61 / 1.00 GiB
-▅▅▅▅▆▆▆▆▆▆▅▅▅▅▅▅▆▆▆▆
+Memory
+████████░░░░░░  57.5%
+0.58 / 1.00 GiB
 
-Disco (/)
-████████████████░░░░  84.0%
+Disk (/)
+████████████░░  83.9%
 6.17 / 7.36 GiB
 ```
 
-- CPU e memória vêm de `/proc/stat` e `/proc/meminfo` (Linux); a memória usada é `MemTotal − MemAvailable`, sem contar cache.
-- O disco é o da raiz `/`, lido com `df` a cada 5 s.
-- As barras ficam vermelhas a partir de 85%; os gráficos mostram os últimos 60 s.
-- O painel fica fixo ao lado da conversa no modo fullscreen do terminal a partir de 110 colunas e abre sozinho a partir de 144; `/resources-monitor` o abre a qualquer largura.
+- CPU and memory come from `/proc/stat` and `/proc/meminfo` (Linux); used memory is `MemTotal − MemAvailable`, so cache is not counted.
+- Disk is the root `/`, read with `df` every 5 s.
+- From 85% on, the percentage gets a `!`.
+- In the terminal's fullscreen mode the panel docks beside the conversation from 110 columns and opens by itself from 144; `/resources-monitor` opens it at any width.
 
-## Instalação
+## Install
 
-No prompt de uma sessão do Claude Code no terminal:
+At the prompt of a Claude Code session in the terminal:
 
 ```
 /plugin install resources-monitor --marketplace bmarino01/claude-plugins
 ```
 
-Responda `y` para adicionar o marketplace e escolha o escopo (usuário, para valer em todos os projetos).
+Answer `y` to add the marketplace and pick the scope (user, to have it in every project).
 
-## Testes
+## Checks
 
 ```
 claude plugin validate /root/claude-plugins/resources-monitor

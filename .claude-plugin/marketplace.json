@@ -13,7 +13,7 @@
     {
       "name": "resources-monitor",
       "source": "./resources-monitor",
-      "description": "Painel na lateral direita com uso de CPU, memória e disco em tempo real, em âmbar"
+      "description": "Painel na lateral direita com uso de CPU, memória e disco em tempo real, em preto e branco"
     }
   ]
 }

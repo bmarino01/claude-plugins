@@ -1,7 +1,7 @@
 {
   "name": "resources-monitor",
   "version": "0.1.0",
-  "description": "Painel na lateral direita com uso de CPU, memória e disco em tempo real, em âmbar",
+  "description": "Right-side panel with live CPU, memory and disk usage, in black and white",
   "author": { "name": "Bruno Marino" },
   "types": "./types/index.d.ts"
 }
