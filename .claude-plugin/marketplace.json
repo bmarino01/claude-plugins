@@ -9,6 +9,11 @@
       "name": "uso-sessao",
       "source": "./uso-sessao",
       "description": "Barra azul acima do prompt com o uso dos limites (sessão de 5 h e semana) e o horário do próximo reset"
+    },
+    {
+      "name": "resources-monitor",
+      "source": "./resources-monitor",
+      "description": "Painel na lateral direita com uso de CPU, memória e disco em tempo real, em âmbar"
     }
   ]
 }
